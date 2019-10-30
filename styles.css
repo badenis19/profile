@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+
+
+body {
+  background-color: #23395B;
+  font-family: "Oxygen";
+}
+
+h1 {
+   font-family: Satisfy, cursive;
+    font-weight:normal;
+    /*font-size:50px;*/
+    /*padding-top: 60px;*/
+}
+
+.profile {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  /*border: 1px solid black;*/
+  box-shadow: 0 0 10px #D9CFC1;
+}
+
+.btn-wagon {
+  padding: 20px;
+  background-color: #23395B;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.container1 {
+  width: 50vw;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px #D9CFC1;
+  background-color: white;
+  padding-top: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.container1 h1 {
+  margin-top: 0;
+}
+
+.container2, .container-middle, .container-interest {
+  width: 50vw;
+  margin: 0 auto;
+  box-shadow: 0 0 10px #D9CFC1;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container-interest {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-interest i {
+  font-size: 50px;
+  margin: 12px;
+  color: #23395B;
+}
+
+.container-interest div {
+  margin-top: 10px;
+  color: #23395B;
+}
+
+.container1 a:hover {
+  background-color: #161925;
+}
+
+.description p {
+  margin-bottom: 50px;
+}
+
+
+.container2 ul {
+  padding: 0;
+}
+
+.container2 i:hover {
+  color: #161925;
+}
+
+li {
+  text-decoration: none;
+  display: inline;
+}
+
+i {
+  font-size: 50px;
+  margin: 20px;
+  color: #23395B;
+}
+
+div {
+   background-color: FAFAFA;
+}
+
+
+
+.hidden {
+  display: none;
+}
+
